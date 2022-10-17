@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ZeroServices.Game.Model" Version="0.2.46-beta" />
+    <PackageReference Include="ZeroServices.Game.Shared" Version="0.2.46-beta" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+﻿<linker>
+  <!--
+  Preserve types and members in an assembly
+  -->
+  <assembly fullname="UnnamedStudios.Common" preserve="all"/>
+  <assembly fullname="UnnamedStudios.Common.Model" preserve="all"/>
+  <assembly fullname="Zero.Demo.Model" preserve="all"/>
+  <assembly fullname="RestSharp" preserve="all"/>
+  <assembly fullname="UnnamedStudios.RestSharp" preserve="all"/>
+  <assembly fullname="Zero.Game.Client" preserve="all"/>
+  <assembly fullname="Zero.Game.Shared" preserve="all"/>
+  <assembly fullname="Newtonsoft.Json" preserve="all"/>
+  <assembly fullname="System.Core">
+    <!-- This is required by JSon.NET and any expression.Compile caller -->
+    <type fullname="System.Linq.Expressions*" />
+  </assembly>
+</linker>

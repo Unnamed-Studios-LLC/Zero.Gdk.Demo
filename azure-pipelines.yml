@@ -1,0 +1,71 @@
+# ASP.NET Core
+# Build and test ASP.NET Core projects targeting .NET Core.
+# Add steps that run tests, create a NuGet package, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  buildConfiguration: 'Release'
+  publishRuntime: 'linux-x64'
+  zeroToken: '$(zeroDevServiceToken)'
+
+steps:
+
+- task: DotNetCoreCLI@2
+  displayName: 'Restore'
+  inputs:
+    command: restore
+    projects: '**/*.csproj'
+    feedsToUse: 'config'
+    nugetConfigPath: 'NuGet.config'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Publish World'
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    projects: 'Zero.Demo.Server/Zero.Demo.World/Zero.Demo.World.csproj'
+    arguments: '--runtime $(publishRuntime) --self-contained true --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/publish'
+    zipAfterPublish: false
+
+- task: ArchiveFiles@2
+  displayName: 'Archive World'
+  inputs:
+    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)/publish/Zero.Demo.World'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/archive/build.zip'
+    replaceExistingArchive: true
+
+- task: CmdLine@2
+  inputs:
+    script: |
+      curl -H "Token: $(zeroToken)" --form file="@$(Build.ArtifactStagingDirectory)/archive/build.zip" https://service.dev.zeroservices.co/api/v1/build
+
+- task: DotNetCoreCLI@2
+  displayName: 'Publish Api'
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    projects: 'Zero.Demo.Server/Zero.Demo.Api/Zero.Demo.Api.csproj'
+    arguments: '--runtime $(publishRuntime) --self-contained true --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/publish'
+    zipAfterPublish: false
+
+- task: ArchiveFiles@2
+  displayName: 'Archive Server'
+  inputs:
+    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)/publish/Zero.Demo.Api'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/archive/build.zip'
+    replaceExistingArchive: true
+
+- task: CmdLine@2
+  inputs:
+    script: |
+      curl -H "Token: $(zeroToken)" --form file="@$(Build.ArtifactStagingDirectory)/archive/build.zip" https://service.dev.zeroservices.co/api/v1/build

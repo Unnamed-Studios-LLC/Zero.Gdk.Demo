@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Zero.Gdk\Zero.Game.Local\Zero.Game.Local.csproj" />
+    <ProjectReference Include="..\Zero.Demo.Api\Zero.Demo.Api.csproj" />
+    <ProjectReference Include="..\Zero.Demo.World\Zero.Demo.World.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RuntimeIdentifiers>linux-x64;win-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="manifest.yml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Box2D.NetStandard" Version="2.4.7-alpha" />
+    <PackageReference Include="ZeroServices.Service.Model" Version="1.0.30" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Zero.Gdk\Zero.Game.Server\Zero.Game.Server.csproj" />
+    <ProjectReference Include="..\Zero.Demo.Core\Zero.Demo.Core.csproj" />
+    <ProjectReference Include="..\Zero.Demo.Model\Zero.Demo.Model.csproj" />
+  </ItemGroup>
+
+</Project>

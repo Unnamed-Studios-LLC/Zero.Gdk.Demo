@@ -1,0 +1,6 @@
+﻿version:
+  major: 1
+  minor: 0
+zeroVersion: 1.0.0
+executable: Zero.Demo.Api
+serviceId: 142207711739839

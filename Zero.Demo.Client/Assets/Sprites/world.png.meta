@@ -1,0 +1,2137 @@
+fileFormatVersion: 2
+guid: e66860a0e3af438459a3a9f04cc7cb0b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: world-ship-0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 36
+        width: 19
+        height: 21
+      alignment: 9
+      pivot: {x: 0.57894737, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: -5.5}
+        - {x: -9.5, y: -2.5}
+        - {x: 4.5, y: 10.5}
+        - {x: 6.5, y: 10.5}
+        - {x: 9.5, y: -1.5}
+        - {x: 9.5, y: -10.5}
+        - {x: -4.5, y: -10.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0553c67ebc657541b8b515294002983
+      internalID: 787844812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-ship-1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1
+        width: 31
+        height: 23
+      alignment: 9
+      pivot: {x: 0.58064514, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: -11.5}
+        - {x: -15.5, y: -4.5}
+        - {x: -15.5, y: -2.5}
+        - {x: 1.5, y: 11.5}
+        - {x: 3.5, y: 11.5}
+        - {x: 15.5, y: 2.5}
+        - {x: 15.5, y: -11.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad559beadd508ef49977bc980b625c2e
+      internalID: -716750750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-ship-2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1
+        width: 47
+        height: 34
+      alignment: 9
+      pivot: {x: 0.61702126, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: -17}
+        - {x: -23.5, y: -10}
+        - {x: -23.5, y: -6}
+        - {x: -20.5, y: -5}
+        - {x: -10.5, y: 6}
+        - {x: -8.5, y: 17}
+        - {x: -4.5, y: 17}
+        - {x: 9.5, y: 7}
+        - {x: 18.5, y: 9}
+        - {x: 23.5, y: -1}
+        - {x: 23.5, y: -17}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e541fb11f338a48b2abb24f42da427
+      internalID: -2095587006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-ship-3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 72
+        width: 71
+        height: 56
+      alignment: 9
+      pivot: {x: 0.6056338, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: -28}
+        - {x: -23.5, y: -20}
+        - {x: -35.5, y: -17}
+        - {x: -35.5, y: -15}
+        - {x: -15.5, y: 8}
+        - {x: -13.5, y: 25}
+        - {x: -8.5, y: 27}
+        - {x: -5.5, y: 10}
+        - {x: 15.5, y: 28}
+        - {x: 19.5, y: 28}
+        - {x: 35.5, y: -6}
+        - {x: 35.5, y: -28}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6452c0cb530a8d1469954643a47471ea
+      internalID: -43336033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-ship-4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 101
+        height: 70
+      alignment: 9
+      pivot: {x: 0.6237624, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: -35}
+        - {x: -30.5, y: -21}
+        - {x: -50.5, y: -10}
+        - {x: -50.5, y: -6}
+        - {x: -21.5, y: 15}
+        - {x: -18.5, y: 28}
+        - {x: -13.5, y: 29}
+        - {x: -10.5, y: 16}
+        - {x: 4.5, y: 35}
+        - {x: 10.5, y: 35}
+        - {x: 11.5, y: -2}
+        - {x: 20.5, y: 6}
+        - {x: 21.5, y: 18}
+        - {x: 28.5, y: 22}
+        - {x: 29.5, y: 2}
+        - {x: 42.5, y: 15}
+        - {x: 50.5, y: -7}
+        - {x: 50.5, y: -12}
+        - {x: 48.5, y: -24}
+        - {x: 46.5, y: -35}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9097acb4100320d4799a615c8a42b7ee
+      internalID: -1990871681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-rocks-0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 34
+        width: 56
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 12}
+        - {x: -9, y: 22}
+        - {x: -12, y: 22}
+        - {x: -18, y: -2}
+        - {x: -28, y: -15}
+        - {x: -22, y: -22}
+        - {x: 28, y: -22}
+        - {x: 28, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cce6de5b3f3c004da4aa2347ad15a73
+      internalID: -2104909237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-rocks-1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 61
+        width: 36
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 15}
+        - {x: -1, y: 15}
+        - {x: -18, y: -6}
+        - {x: -18, y: -15}
+        - {x: 18, y: -15}
+        - {x: 18, y: 4}
+        - {x: 12, y: 7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285dc24c3f505d94cbf99c3f34577317
+      internalID: 1628418454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-rocks-3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 79
+        width: 33
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 16}
+        - {x: -12.5, y: -4}
+        - {x: -16.5, y: -9}
+        - {x: -16.5, y: -13}
+        - {x: -11.5, y: -15}
+        - {x: 7.5, y: -17}
+        - {x: 16.5, y: -17}
+        - {x: 16.5, y: -10}
+        - {x: -0.5, y: 15}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af35ce59dd5149418ab3ca9082c799b
+      internalID: -838430996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-rocks-2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 61
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 16}
+        - {x: -12.5, y: -5}
+        - {x: -12.5, y: -11}
+        - {x: -1.5, y: -16}
+        - {x: 2.5, y: -16}
+        - {x: 12.5, y: -13}
+        - {x: 12.5, y: -5}
+        - {x: -3.5, y: 16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e012fdc8899ea4ab98579019c01527
+      internalID: 1794407147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-character-legs
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 111
+        width: 5
+        height: 2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a2b5947a55e0348ae1641e82c9c2df
+      internalID: -157772734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-character-head
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 110
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8876e4917092f418ab196e16b7b9bf
+      internalID: 1541185176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-0
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 132
+        width: 9
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a723402352059498e84a33edd68005
+      internalID: -1549088313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 125
+        width: 9
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5779dbd0946a284fb9b467deba86348
+      internalID: -1631872270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 118
+        width: 9
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78435325492475f468c6cf05f656b540
+      internalID: -1893709010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 132
+        width: 9
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4958fe1ae1ba1b74291a045cf2b62a22
+      internalID: -993244561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 125
+        width: 9
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27307d8140988294e8e1693f3d5cc686
+      internalID: -446686645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 118
+        width: 9
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7848c0c014fa8d4ba632a2c1f185e0f
+      internalID: -655092564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 131
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348f6fd03458fcc44acae6ec581ce86c
+      internalID: 2060100021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-7
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 124
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c2ee36ed317f645918a5ee8730b90d
+      internalID: 1052063195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 117
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfbe8fe59bdb5d429fcad4b4920ec1f
+      internalID: 1008977523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 131
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d90524bb72556e4eab89e0b5eeeb04b
+      internalID: -1150268339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-10
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 124
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b444259b1c0ca246bd7af81b8a12267
+      internalID: -1536435045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 117
+        width: 9
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa3df54dd3b4c14a8d264f40a5ce16d
+      internalID: -968165220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 131
+        width: 8
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786c6fc5fbab37a4cb9e937d9a534ab4
+      internalID: 865966241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 124
+        width: 8
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b8abd9a8eefd8418b3cf6acdf17017
+      internalID: 953392160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-14
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 117
+        width: 8
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee11e0c29766d440b811c8afae01ec4
+      internalID: 1037742621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-15
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 131
+        width: 8
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d623775d0cde6a945bd46c2d2782996d
+      internalID: 1289050226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-16
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 124
+        width: 8
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3b2330e60156742bd514688a4dddb1
+      internalID: 1775421334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-17
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 117
+        width: 8
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db11aea740b7b544a4b0c44ffd28be9
+      internalID: 845135867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-hat-none
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 135
+        width: 1
+        height: 1
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c36639511f1c7246bf6e7eb1281810a
+      internalID: -1256354550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-smoke-0
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3d3e5abd443964bac90430578a0849
+      internalID: 1906748102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-smoke-1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74616e07062c1349acc869d54352be8
+      internalID: 620014252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-smoke-2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387b180494a9ad2438aa4c7d2935bbd4
+      internalID: 1434406659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-cannon
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 6
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cfe66c97060ee4c85e699ed9e4f732
+      internalID: 1451226566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-indicator
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 6
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683f9178486426a4884a84fe1bc965ce
+      internalID: -244519821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-splash-0
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 143
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c0c033388d20646955f2215f0457ab
+      internalID: 520834511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-splash-1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 142
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc627fd72c7b0764d99a611315a1cf46
+      internalID: -1388932850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-splash-2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a527c354413317245a057e5b586b3a6b
+      internalID: -1851369366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-splash-3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 139
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5470430a0ea97314d9185d4e2f4e533b
+      internalID: -1164425662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-splash-4
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 138
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d477ae9b8e0994e8a5817da7259d10
+      internalID: 713135496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-indicator-container
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 6
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc495715081ca9408631a753e0a65f8
+      internalID: 330323713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-indicator-fill
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 7
+        width: 1
+        height: 1
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c10df58aebf9c14f9d8effb52b9332c
+      internalID: 2057608326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-wood-0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 154
+        width: 11
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a59a64b02ec7b344a4104b140813521
+      internalID: -1667966640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-wood-1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 152
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae465dda6851aa41b2cde3653074b5b
+      internalID: 1616461854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-wood-2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 152
+        width: 4
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a3b54488bff3841ad738885e4cec8b
+      internalID: -198116031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-wood-3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 152
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410403dc360ba564d938051becaeb048
+      internalID: -1383568096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-wood-4
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 164
+        width: 10
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafa2feaca68c084a94aaa86d9717d4d
+      internalID: -247394940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-wood-6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 178
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf503115741ea94486e1a75d116671f
+      internalID: -2002196139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-wood-5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 178
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad2626b421399242b0c23fc048e75aa
+      internalID: -610728617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-ship-5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 124
+        width: 105
+        height: 73
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 30.5}
+        - {x: -27.5, y: 9.5}
+        - {x: -52.5, y: -5.5}
+        - {x: -52.5, y: -8.5}
+        - {x: -45.5, y: -20.5}
+        - {x: -20.5, y: -36.5}
+        - {x: 44.5, y: -36.5}
+        - {x: 52.5, y: -26.5}
+        - {x: 52.5, y: 5.5}
+        - {x: 35.5, y: 30.5}
+        - {x: 18.5, y: 36.5}
+        - {x: -1.5, y: 36.5}
+      - - {x: 23.5, y: -3.5}
+        - {x: 25.5, y: -2.5}
+        - {x: 22.5, y: -5.5}
+        - {x: 23.5, y: -5.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5738a6fa0f1efd42add8ce22d11dadf
+      internalID: -409441083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-upgrade-cloud-0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 184
+        width: 15
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96591367923c4b4fa22c185e60607d6
+      internalID: -972517067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-upgrade-cloud-1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 183
+        width: 17
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f6c1aa93fd53a4389a908dc04be9f9
+      internalID: 1985350433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-upgrade-cloud-2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 169
+        width: 17
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42074e98cf1cf6242b2885e214242177
+      internalID: 1104262195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-upgrade-cloud-3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 169
+        width: 16
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac0c62096e5792439e67d576f427a8e
+      internalID: -1845430491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-death-effect
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 173
+        width: 23
+        height: 26
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d37eed3e9f4124f862a6b1cc0df934
+      internalID: 418437059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-crown
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 158
+        width: 20
+        height: 14
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128be08955e86fa4ba8d0e9df367d3e8
+      internalID: -145773912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-dev
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 136
+        width: 25
+        height: 21
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea642ca6fb067a54ca68fe08a8f5f494
+      internalID: -546494161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-island-0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 200
+        width: 70
+        height: 97
+      alignment: 9
+      pivot: {x: 0.44285715, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: 33.5}
+        - {x: 15, y: 35.5}
+        - {x: 13, y: 48.5}
+        - {x: -2, y: 48.5}
+        - {x: -10, y: 43.5}
+        - {x: -33, y: 41.5}
+        - {x: -35, y: 5.5}
+        - {x: -35, y: -23.5}
+        - {x: -19, y: -48.5}
+        - {x: 14, y: -48.5}
+        - {x: 19, y: -41.5}
+        - {x: 24, y: 15.5}
+        - {x: 35, y: 22.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fd7aeee89b0084893349aced653b87
+      internalID: -1833512595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-island-1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 200
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.3918919, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 37}
+        - {x: -37, y: 24}
+        - {x: -37, y: 14}
+        - {x: -22, y: 1}
+        - {x: -37, y: -11.503723}
+        - {x: -37, y: -27}
+        - {x: -15, y: -37}
+        - {x: 11, y: -37}
+        - {x: 21, y: -33}
+        - {x: 23, y: -11}
+        - {x: 37, y: -3}
+        - {x: 37, y: 11}
+        - {x: 6, y: 37}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37101523fa1efb44eae71fe7f74c9710
+      internalID: -906203199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 201
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c3fc4739206e3439d65648f9ea4cff
+      internalID: 1933818687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 201
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee700377e1381d42bb935254bfd4419
+      internalID: -1536471659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 201
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c198d7491e93974da574bb4eaf2a7fe
+      internalID: 1600088800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-0
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 201
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845f7f6b27fdea646a23e485a954515f
+      internalID: 5875646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 201
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa30427300fc19d4b9c21134c5fcbf52
+      internalID: -1841585423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-color
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 190
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe66b4f59f496a4aa33df878377f67c
+      internalID: -171289776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 211
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f55d8a49a45eb44903cf6e27ff84ac
+      internalID: -1808779612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-8
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 211
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db1c1bef56c0584789cc44aa01f03a0
+      internalID: -743754764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 211
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824e2e465a84d614e8165d7d7e232018
+      internalID: -893168260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 211
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5546d17ea26a304c87022388ad47061
+      internalID: -962320619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 211
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86494ee53a8d44348a569b5333ed6b30
+      internalID: -945714520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-10
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 221
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cd79f0ff985f0439d9a92989b13be8
+      internalID: 105181789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-11
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 221
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aad1a68f38d9094ca64aa14ea3a94f2
+      internalID: -1604954984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 221
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caae0c9c9976b99489cd08a4a387d273
+      internalID: -585695713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-13
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 221
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ad9d8b41e713849a77081884fc8171
+      internalID: 289202619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-14
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 221
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a580c70e57e85419e295a868a51070
+      internalID: 1092627390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-15
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 230
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49c9edfb6c1e0c4eb4b3fb574092bc7
+      internalID: 1800943836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-16
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 230
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e27e7881738dc4490083cb80c10200
+      internalID: -1670989684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-17
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 230
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1fa3ffee0953d49b80d6c15b05f56a
+      internalID: 36808849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 230
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3417351d4450f43419aa1b791f5e42fd
+      internalID: 688900527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-19
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 240
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d4398784e6e7e428557b5144ee6a6f
+      internalID: 1656451455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-20
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 240
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc8b812e3d551e488384da418b04283
+      internalID: 47680036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 240
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bf2aaba0dbaec43b86b6c452d3db6a
+      internalID: -1397476786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-flag-22
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 240
+        width: 12
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7451ab5635b9d74aa1da04f8fae901b
+      internalID: 354700119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-direction
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 260
+        width: 16
+        height: 9
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 1, y: 3, z: 5, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa143f2342bf4ed44a7e1e439b05555c
+      internalID: -252631589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: world-shadow
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 262
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776c815a9d9854d4b898b48948691b5e
+      internalID: 689643049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      world-ship-3: -43336033
+      world-dev: -546494161
+      world-hat-1: -1631872270
+      world-character-head: 1541185176
+      world-flag-18: 688900527
+      world-island-1: -906203199
+      world-splash-4: 713135496
+      world-direction: -252631589
+      world-flag-1: 1600088800
+      world-flag-16: -1670989684
+      world-hat-5: -655092564
+      world-hat-10: -1536435045
+      world-rocks-3: -838430996
+      world-crown: -145773912
+      world-flag-12: -585695713
+      world-flag-17: 36808849
+      world-flag-13: 289202619
+      world-hat-8: 1008977523
+      world-flag-14: 1092627390
+      world-hat-16: 1775421334
+      world-upgrade-cloud-0: -972517067
+      world-ship-2: -2095587006
+      world-hat-7: 1052063195
+      world-flag-22: 354700119
+      world-character-legs: -157772734
+      world-hat-3: -993244561
+      world-ship-0: 787844812
+      world-indicator: -244519821
+      world-hat-11: -968165220
+      world-splash-0: 520834511
+      world-wood-4: -247394940
+      world-splash-1: -1388932850
+      world-shadow: 689643049
+      world-flag-15: 1800943836
+      world-flag-19: 1656451455
+      world-rocks-0: 1602499031
+      world-flag-4: -1841585423
+      world-splash-2: -1851369366
+      world-flag-3: 1933818687
+      world-flag-color: -171289776
+      world-splash-3: -1164425662
+      world-wood-2: -198116031
+      world-death-effect: 418437059
+      world-hat-2: -1893709010
+      world-wood-5: -610728617
+      world-ship-5: -409441083
+      world-ship-4: -1990871681
+      world-wood-1: 1616461854
+      world-hat-9: -1150268339
+      world-wood-3: -1383568096
+      world-upgrade-cloud-3: -1845430491
+      world-hat-6: 2060100021
+      world-flag-7: -893168260
+      world-hat-12: 865966241
+      world-wood-0: -1667966640
+      world-rocks-1: 1628418454
+      world-rocks-2: 1794407147
+      world-smoke-0: 1906748102
+      world-island-0: -1833512595
+      world-hat-13: 953392160
+      world-flag-0: 5875646
+      world-wood-6: -2002196139
+      world-cannon: 1451226566
+      world-indicator-fill: 2057608326
+      world-upgrade-cloud-1: 1985350433
+      world-flag-5: -945714520
+      world-upgrade-cloud-2: 1104262195
+      world-hat-15: 1289050226
+      world-smoke-1: 620014252
+      world-hat-none: -1256354550
+      world-flag-11: -1604954984
+      world-flag-2: -1536471659
+      world-flag-21: -1397476786
+      world-flag-20: 47680036
+      world-smoke-2: 1434406659
+      world-flag-8: -743754764
+      world-hat-4: -446686645
+      world-ship-1: -716750750
+      world-flag-9: -1808779612
+      world-flag-10: 105181789
+      world-hat-14: 1037742621
+      world-flag-6: -962320619
+      world-hat-0: -1549088313
+      world-indicator-container: 330323713
+      world-hat-17: 845135867
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
