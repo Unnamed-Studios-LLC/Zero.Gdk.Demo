@@ -21,11 +21,11 @@
 
   <ItemGroup>
     <PackageReference Include="Box2D.NetStandard" Version="2.4.7-alpha" />
+    <PackageReference Include="ZeroServices.Game.Server" Version="0.2.47-beta" />
     <PackageReference Include="ZeroServices.Service.Model" Version="1.0.30" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Zero.Gdk\Zero.Game.Server\Zero.Game.Server.csproj" />
     <ProjectReference Include="..\Zero.Demo.Core\Zero.Demo.Core.csproj" />
     <ProjectReference Include="..\Zero.Demo.Model\Zero.Demo.Model.csproj" />
   </ItemGroup>

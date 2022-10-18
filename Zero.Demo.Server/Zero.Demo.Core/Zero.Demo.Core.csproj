@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ZeroServices.Game.Model" Version="0.2.46-beta" />
-    <PackageReference Include="ZeroServices.Game.Shared" Version="0.2.46-beta" />
+    <PackageReference Include="ZeroServices.Game.Model" Version="0.2.47-beta" />
+    <PackageReference Include="ZeroServices.Game.Shared" Version="0.2.47-beta" />
   </ItemGroup>
 
 </Project>
