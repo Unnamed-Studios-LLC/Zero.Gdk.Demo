@@ -15,13 +15,6 @@ namespace Zero.Demo.World
             world.Parallel = true; // mark this world to run updates in parallel to other worlds marked parallel
             world.MaxConnections = App.Settings.WorldMaxConnections;
 
-            if (world.Data.TryGetValue("permanent", out var perm) &&
-                !string.IsNullOrWhiteSpace(perm) &&
-                perm.Equals("true", StringComparison.OrdinalIgnoreCase))
-            {
-                world.AddSystem(new CapacityLogSystem());
-            }
-
             var mapSize = new Int2(150, 150);
 
             world.AddSystem(new PhysicsSystem(mapSize));
